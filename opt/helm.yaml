@@ -1,0 +1,31 @@
+Framework:
+  Order: 8
+  PDE: Helm
+  Train:
+    batch_size: 1024
+    epochs: 1000
+    device: cuda
+    optimizer: 
+      type: Adamax
+      lr: 5e-3
+    lr_scheduler:
+        name: MultiStepLR
+        milestones: [800,2000]
+        gamma: 0.2
+    eval: 10
+  Preprocess:
+    normal_min: none
+    normal_max: none
+  Network:
+    input: 2
+    hidden: 64
+    output: 1
+    layer: 5
+    act: Sine
+    output_act: False
+    pretrained: none
+Log: 
+  outputs_dir: outputs
+  project_name: Helm
+  stdlog: false
+  tensorboard: true
