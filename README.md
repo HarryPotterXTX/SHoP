@@ -32,7 +32,8 @@
     <img src="docs/harmonic.png" style="display: inline-block; width: 600px;">
 </div>
 
-The explicit expression of the ''black-box'' neural network is 
+The explicit expression of the ''black-box'' neural network is
+
 $$\begin{aligned}
     u(t)&=0.0056-\frac{0.9943}{1!}\Delta_{\pi}+\frac{0.0099}{2!}\Delta_{\pi}^2+\frac{0.9988}{3!}\Delta_{\pi}^3
     -\frac{0.0238}{4!}\Delta_{\pi}^4-\frac{1.0092}{5!}\Delta_{\pi}^5+\frac{0.0685}{6!}\Delta_{\pi}^6+\frac{1.0896}{7!}\Delta_{\pi}^7  \hspace{100cm} \\
