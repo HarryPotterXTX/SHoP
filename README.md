@@ -72,24 +72,25 @@ The $R^2$ score of the solution obtained by SHoP is as high as 0.9912, and the $
 
 # Citations
 ```
-@article{
-    xiao2023shop,
-    title={SHoP: A Deep Learning Framework for Solving High-order Partial Differential Equations},
-    author={Xiao, Tingxiong and Yang, Runzhao and Cheng, Yuxiao and Suo, Jinli and Dai, Qionghai},
-    journal={arXiv preprint arXiv:2305.10033},
-    year={2023}
+@inproceedings{xiao2024shop,
+  title={Shop: A deep learning framework for solving high-order partial differential equations},
+  author={Xiao, Tingxiong and Yang, Runzhao and Cheng, Yuxiao and Suo, Jinli},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={38},
+  number={14},
+  pages={16032--16039},
+  year={2024}
 }
 ```
 If you are interested in the principle of Taylor expansion of neural networks, you can refer to our another article
 https://github.com/HarryPotterXTX/HOPE.git
 ```
-@article 
-{
-    xiao2023hope,
-    title={HOPE: High-order Polynomial Expansion of Black-box Neural Networks},
-    author={Xiao, Tingxiong and Zhang, Weihang and Cheng, Yuxiao and Suo, Jinli},
-    journal={arXiv preprint arXiv:2307.08192},
-    year={2023}
+@article{xiao2024hope,
+  title={HOPE: High-order Polynomial Expansion of Black-box Neural Networks},
+  author={Xiao, Tingxiong and Zhang, Weihang and Cheng, Yuxiao and Suo, Jinli},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2024},
+  publisher={IEEE}
 }
 ```
 # Contact
